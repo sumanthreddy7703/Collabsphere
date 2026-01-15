@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="csLink" x1="10" y1="10" x2="54" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7C3AED"></stop>
+      <stop offset="55%" stop-color="#4F46E5"></stop>
+      <stop offset="100%" stop-color="#22D3EE"></stop>
+    </linearGradient>
+
+    <radialGradient id="csCore" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(32 32) rotate(45) scale(18)">
+      <stop offset="0%" stop-color="#A78BFA"></stop>
+      <stop offset="55%" stop-color="#7C3AED"></stop>
+      <stop offset="100%" stop-color="#4F46E5"></stop>
+    </radialGradient>
+  </defs>
+
+  <!-- Soft ring hint (adds polish, still minimal) -->
+  <circle cx="32" cy="32" r="18" stroke="url(#csLink)" stroke-width="3" opacity="0.35"></circle>
+
+  <!-- Links -->
+  <path d="M32 14 L14 32" stroke="url(#csLink)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M32 14 L50 32" stroke="url(#csLink)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M14 32 L32 50" stroke="url(#csLink)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M50 32 L32 50" stroke="url(#csLink)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- Nodes -->
+  <circle cx="32" cy="32" r="7.2" fill="url(#csCore)"></circle>
+  <circle cx="32" cy="14" r="4.2" fill="#7C3AED"></circle>
+  <circle cx="14" cy="32" r="4.2" fill="#6366F1"></circle>
+  <circle cx="50" cy="32" r="4.2" fill="#38BDF8"></circle>
+  <circle cx="32" cy="50" r="4.2" fill="#22D3EE"></circle>
+</svg>
