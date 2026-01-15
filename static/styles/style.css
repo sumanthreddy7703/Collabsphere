@@ -1672,3 +1672,8 @@ html[data-theme="dark"] .theme-toggle {
 .header__menu {
   overflow: visible !important;
 }
+.room__topRight{
+  display:flex;
+  gap:10px;
+  align-items:center !important;
+}
